@@ -1,4 +1,4 @@
-A port from the 'sdl engine' of Time Jones from C++ to Python (2/3)
+A port from the 'sdl engine' of Tim Jones from C++ to Python (2/3)
 
 Even this README is a port (lol)
 
