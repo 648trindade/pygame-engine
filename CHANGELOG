@@ -1,0 +1,24 @@
+# Change Log
+All notable changes to this project will be documented in this file.
+This project adheres to [Semantic Versioning](http://semver.org/).
+Special thanks to http://keepachangelog.com/pt-BR/
+
+## [0.1.0] - 2016-03-22
+### Added
+- main.cpp ported to main.py
+- App.cpp and App.h ported to App.py
+- TextureBank.cpp and TextureBank.h ported to TextureBank.py
+- Texture.cpp and Texture.h ported to Texture.py
+- FileManager.cpp and FileManager.h ported to FileManager.py
+- Log.py created to permit use on python 2 and 3
+- Textures folder and a png getted from pixabay.com
+
+### Removed
+- Attributes TestTexture and PrimarySurface from App class. They're not used.
+- Some C functions on FileManager unnecessary from now due the os lib <3.
+- The static instances. They are pratical but not really necessary.
+- Stringify class. (Python, you know ¯\_(ツ)_/¯ )
+
+### Changed
+- Some functions that need a SDL_Renderer object now uses the pygame.Surface
+  object that is Surface reference of display (named in code as Display)
